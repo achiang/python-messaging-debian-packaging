@@ -1,0 +1,7 @@
+python-messaging (0.5.11+debian-1) unstable; urgency=low
+
+  * Initial packaging (Closes: #638536)
+  * debian/patches/rm-distribute_setup.patch: unneeded, as we b-d on
+    python-setuptools and can use imports from there directly
+
+ -- Alex Chiang <achiang@canonical.com>  Thu, 18 Aug 2011 16:44:23 -0600

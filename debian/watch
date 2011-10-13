@@ -1,0 +1,3 @@
+version=3
+opts=dversionmangle=s/\+debian.*$// \
+http://githubredir.debian.net/github/pmarti/python-messaging/(.*).tar.gz
